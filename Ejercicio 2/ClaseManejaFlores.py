@@ -37,15 +37,8 @@ class ManejaFlor:
                 self.agregarFlor(flor)
         archivo.close()
     
-    def buscarFlor(self, cod):
-        pos = 0
-        bandera = False
-        while pos < len(self.__flores) and bandera == False:
-            if self.__flores[pos].getNumero() == cod:
-                bandera = True
-                return self.__flores[pos]
-            else:
-                pos += 1
+    def getFlor(self, pos):
+        return self.__flores[pos]
                 
     def buscarFlorPOS(self, cod):
         pos = 0

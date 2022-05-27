@@ -23,10 +23,14 @@ class Menu:
             else:
                 codF = int(cod)
                 pos = manejaF.buscarFlorPOS(codF)
-                flor = manejaF.buscarFlor(codF)
-                cant = int(input('Ingrese la cantidad: '))
-                ramo.agregarFlor(flor, cant)
-                manejaF.setCantVend(pos,cant)
+                if(pos != None):
+                    flor = manejaF.getFlor(pos)
+                    cant = int(input('Ingrese la cantidad: '))
+                    ramo.agregarFlor(flor, cant)
+                    manejaF.setCantVend(pos,cant)
+                else:
+                    print('Código de flor incorrecto')
+                
         manejaR.agregarRamo(ramo)
     def opcion2(self,manejaR,manejaF):
         manejaF.ordenarLista()
