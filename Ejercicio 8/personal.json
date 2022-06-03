@@ -1,0 +1,64 @@
+{
+    "__class__": "ListaPersonal",
+    "personal": [
+        {
+            "__class__": "DocenteInvestigador",
+            "__atributos__": {
+                "cuil": "20-34184580-2",
+                "apellido": "Sosa",
+                "nombre": "Marta",
+                "sueldoBasico": 50000.0,
+                "antiguedad": 5,
+                "carrera": "LSI",
+                "cargo": "Jefa",
+                "catedra": "POO",
+                "area": "Informatica",
+                "tipo": "Ciencia de datos",
+                "categoriaInv": "IV",
+                "importeExtra": 10000.0
+            }
+        },
+        {
+            "__class__": "Docente",
+            "__atributos__": {
+                "cuil": "20-31654950-1",
+                "apellido": "G\u00f3mez",
+                "nombre": "Carlos",
+                "sueldoBasico": 60000.0,
+                "antiguedad": 7,
+                "carrera": "LCC",
+                "cargo": "Ayudante",
+                "catedra": "POO"
+            }
+        },
+        {
+            "__class__": "DocenteInvestigador",
+            "__atributos__": {
+                "cuil": "20-36248582-2",
+                "apellido": "Dominguez",
+                "nombre": "Carlos",
+                "sueldoBasico": 50000.0,
+                "antiguedad": 5,
+                "carrera": "LSI",
+                "cargo": "Simple",
+                "catedra": "Bases de datos",
+                "area": "Biologia",
+                "tipo": "Conservaci\u00f3n",
+                "categoriaInv": "V",
+                "importeExtra": 12000.0
+            }
+        },
+        {
+            "__class__": "Investigador",
+            "__atributos__": {
+                "cuil": "20-32051951-3",
+                "apellido": "L\u00f3pez",
+                "nombre": "Lourdes",
+                "sueldoBasico": 50000.0,
+                "antiguedad": 5,
+                "area": "Biologia",
+                "tipo": "Biodiversidad"
+            }
+        }
+    ]
+}

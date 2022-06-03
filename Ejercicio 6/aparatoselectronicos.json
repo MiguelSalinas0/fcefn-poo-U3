@@ -1,0 +1,73 @@
+{
+    "__class__": "ManejaAparatos",
+    "aparatos": [
+        {
+            "__class__": "Lavarropa",
+            "__atributos__": {
+                "marca": "Aurora",
+                "modelo": "GYF-165",
+                "color": "Blanco",
+                "pais": "Argentina",
+                "precioBase": 50000.0,
+                "capacidad": 10,
+                "velocidad": 600,
+                "cantidadProgramas": 12,
+                "carga": "Frontal"
+            }
+        },
+        {
+            "__class__": "Heladera",
+            "__atributos__": {
+                "marca": "Phillips",
+                "modelo": "BDV-156-0055",
+                "color": "Blanco",
+                "pais": "Argentina",
+                "precioBase": 50000.0,
+                "capacidad": 50,
+                "freezer": true,
+                "ciclica": true
+            }
+        },
+        {
+            "__class__": "Televisor",
+            "__atributos__": {
+                "marca": "LG",
+                "modelo": "165FS",
+                "color": "Negro",
+                "pais": "Argentina",
+                "precioBase": 80000.0,
+                "pantalla": "LCD",
+                "pulgadas": 32,
+                "definicion": "HD",
+                "internet": true
+            }
+        },
+        {
+            "__class__": "Heladera",
+            "__atributos__": {
+                "marca": "Patrick",
+                "modelo": "654BUH-00015",
+                "color": "Blanco",
+                "pais": "Argentina",
+                "precioBase": 60000.0,
+                "capacidad": 50,
+                "freezer": true,
+                "ciclica": true
+            }
+        },
+        {
+            "__class__": "Lavarropa",
+            "__atributos__": {
+                "marca": "Phillips",
+                "modelo": "FJBI-5160-0516",
+                "color": "Gris",
+                "pais": "Argentina",
+                "precioBase": 60000.0,
+                "capacidad": 20,
+                "velocidad": 600,
+                "cantidadProgramas": 15,
+                "carga": "Superior"
+            }
+        }
+    ]
+}
